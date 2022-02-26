@@ -1,0 +1,18 @@
+h3{
+    font-size: 35px !important;
+}
+
+.btn-success:hover{
+    background-color: brown;
+}
+
+canvas{
+    animation-name: Vyom;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Vyom{
+    from{box-shadow: 1px 1px 35px red;}
+   to{box-shadow: 1px 1px 35px green;}
+}
